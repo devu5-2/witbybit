@@ -1,0 +1,22 @@
+.category-card{
+    background-color: rgb(242, 233, 233);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 1x solid black;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 100vh;
+}
+.category-cards{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.column {
+
+    width: 25%;
+    padding: 0 10px;
+  }

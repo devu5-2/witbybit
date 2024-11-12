@@ -1,0 +1,95 @@
+.horizontal-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1.5em -125px;
+    padding: 0;
+}
+.horizontal-hr2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 8em -125px;
+    padding: 0;
+}
+.activey{
+    background-color: rgb(40, 232, 232);
+    width: 100px;
+    height: 1000px;
+    color: rgb(16, 16, 16);
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+
+
+/* CATEGORY CSS */
+
+.catbox{
+    position: fixed;
+    backdrop-filter: blur(1px);
+    inset: 0;
+
+    background-color: rgba(163, 160, 160, 0.312);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.whitebox{
+    background-color: #fff;
+    color: black;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    /* gap: 5; */
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    z-index: 1;
+    width: 300px;
+}
+.btncnf{
+    margin: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    place-self: end;
+    gap: 5;
+    font-size: xx-large;
+}
+.savebtn{
+    background-color: rgb(23, 171, 225);
+    color: #fff;
+    padding: 5px 25px 5px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.cancelbtn{
+    background-color: rgba(128, 128, 128, 0.241);
+    color: rgb(23, 171, 225);
+    padding: 5px 25px 5px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    /* width: 10px; */
+}
+.catinpt{
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    width: 250px;
+}
+.title-card{
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    place-self: start;
+
+    border: 2px;
+    background-color: aquamarine;
+}
