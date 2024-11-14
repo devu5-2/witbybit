@@ -115,7 +115,7 @@ const MultiStepForm = () => {
         
         <div className="btn-box">
           <button className='formbtn' type="button" onClick={prevStep}>Back</button>
-          <button className='formbtn' type="submit">Submit</button>
+          <button className='formbtn' type="submit" onClick={() => navigate("/")}>Submit</button>
         </div>
       </form>
 
